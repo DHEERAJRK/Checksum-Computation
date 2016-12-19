@@ -18,12 +18,12 @@ Program Execution:
 	3.For running the client code
 		 In command line type-
 		
-		 "javac asn2.java"
-		 "java asn2" to run
+		 "javac client.java"
+		 "java client" to run
 	 
 Description:
 
-	The uploaded assignment contains asn2.java(client),server.java,input.txt
+	The uploaded assignment contains client.java(client),server.java,input.txt
 	Question was to find the TCP Checksum,
 	To find the TCP checksum we are taking the ClientIP, ClientPort,ServerIP,Serverport,Protocol Number,Segmentlength,sequence number,acknowledgement number,Data,windowsize,flags(along with reserved bits and data offsets).
 	we are not considering the optionslength and options data field.
